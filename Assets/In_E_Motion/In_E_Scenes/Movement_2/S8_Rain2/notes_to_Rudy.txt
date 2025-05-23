@@ -1,0 +1,14 @@
+ I made two rains systems one that fills the entire screen and another that's just from the cloud(I'll make a better cloud later if you need me to)
+I personally think the rain that fills the whole screen looks better and it more manageable, but it's your call
+
+You can change the color of the rain in the objects named cover_screen and cloud_rain you can find a field called start color in the top section
+You can increase the rate rain spawns in the emission section
+
+The only thing I need you to do is make the rain splash happen when hitting a silhouette
+if all the silhouettes are part of one collision object then all you'll have to do then all you'll need to do is drag that object into triggers in the particle system triggers section
+If they are separate objects spawned with a prefab then we might need a script that adds the newly spawned object to the particle system's trigger list
+I can write a script for this pretty easily so feel free to delegate that to me if you don't want to 
+
+You can trigger thunder by pressing space, it's a demo right now and I can definitely improve it if you need me to
+
+Oh, also the square is just for testing, you can deactivate or delete it whenever 
